@@ -42,12 +42,24 @@ convertToString(21); // "21"
  * @param {number} n
  * @return {number}
  */
+ function convertToString(n) {
+  return String(n + 1);   
+}
+let convertToString1 = function(n) {
+  return String(n + 1);
+};
 
 /**
  * Subtracts one from a given number.
  * @param {number} n
  * @return {number}
  */
+ function convertToString(n) {
+  return String(n - 1);   
+}
+let convertToString1 = function(n) {
+  return String(n-1);
+};
 
 /**
  * Adds two numbers.
@@ -55,6 +67,12 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the sum
  */
+ function convertToString(x,y) {
+  return String(x + y);   
+}
+let convertToString1 = function(x,y) {
+  return String(x*y);
+};
 
 /**
  * Subtracts the second number from the first.
@@ -62,6 +80,12 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the difference
  */
+ function convertToString(x,y) {
+  return String(y - x);   
+}
+let convertToString1 = function(x,y) {
+  return String(y - x);
+};
 
 /**
  * Multiplies two numbers.
@@ -69,6 +93,12 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the product
  */
+ function convertToString(x,y) {
+  return String(x*y);   
+}
+let convertToString1 = function(x,y) {
+  return String(x*y);
+};
 
 /**
  * Divides the first number by the second.
@@ -76,12 +106,24 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the quotient
  */
+ function convertToString(x,y) {
+  return String(x/y);   
+}
+let convertToString1 = function(x,y) {
+  return String(x/y);
+};
 
 /**
  * Multiplies a number by itself.
  * @param {number} x, number to be squared
  * @return {number} squared
  */
+ function convertToString(x) {
+  return String(x*x);   
+}
+let convertToString1 = function(x) {
+  return String(x*x);
+};
 
 /**
  * Performs a mathematical operation on two numbers.
@@ -91,6 +133,11 @@ convertToString(21); // "21"
  * @param {number} y
  * @return {number} the result
  */
+  function convertToString(x,y) { 
+  console.log(` x+y = ${x+y}`);
+}let convertToString1 = function(x,y) {
+  return String(`x+y = ${x+y}`);
+};
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -98,6 +145,14 @@ convertToString(21); // "21"
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
+ function convertToString(a,b) {
+ 	if (a>b) {
+ 		return true
+ 	} else{
+ 		return false
+ 	}
+ 	// body...
+ }
 
 /**
  * Returns true if `a` is less than `b`.
@@ -105,6 +160,13 @@ convertToString(21); // "21"
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
+ function convertToString(a,b){
+ 	if (a<b){
+ 		return true
+ 	} else{
+ 		return false
+ 	}
+ }
 
 /**
  * Returns true if `a` and `b` are equal.
