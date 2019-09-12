@@ -23,4 +23,19 @@ else
 ## Solution
 ```js
 // your code goes here
+function pow(x,n) {
+	let result;
+	var x = prompt("x?")
+	var n = prompt("n?")
+	if (n<=0){
+		alert("power"+ n +"is not supported, please enter an integer number greater than zero")
+	} else{
+		alert(pow(x,n))
+	}
+	for (var i = 0; i < n; i++) {
+		result = result * x;
+		return result;
+	}
+	// body...
+}
 ```
